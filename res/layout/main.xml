@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    	android:gravity="center"
+    
+    >
+	
+	<Button 
+    	android:id="@+id/Gps"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text=" GPS 설정"
+    	android:gravity="center"
+    	
+    	/>
+    	<Button 
+    	android:id="@+id/Timeline"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="시간 설정"
+    	android:gravity="center"
+    	/>
+    	<Button 
+    	android:id="@+id/Option"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="  Option   "
+    	android:gravity="center"
+    	/>
+    
+</LinearLayout>
